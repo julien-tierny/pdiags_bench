@@ -149,7 +149,7 @@ def main():
                 generate_plot({k: v for k, v in data[i].items() if cpx in k}, backends, i)
             )
 
-        plots_utils.output_tex_file(res, f"plot_{cpx}_{mode}", False, False, legend_pos)
+        plots_utils.output_tex_file(res, f"plot_{cpx}_{mode}", True, True, legend_pos)
 
 
 if __name__ == "__main__":

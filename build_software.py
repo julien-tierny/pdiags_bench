@@ -232,7 +232,6 @@ def main(subset=False):
                     "../../patches/DiscreteMorseSandwich_filters.patch",
                 ],
                 cwd=soft_src,
-                check=True,
             )
             # prep env variable
             create_dir(builddir)

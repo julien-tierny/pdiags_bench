@@ -143,7 +143,6 @@ def main(subset=False):
                         "../../patches/diamorse_0002-persistence.py-Add-Gudhi-format-output.patch",
                     ],
                     cwd=soft_src,
-                    check=True,
                 )
                 subprocess.run(["make", "all"], cwd=soft_src, check=True)
             except subprocess.CalledProcessError:
@@ -195,7 +194,6 @@ def main(subset=False):
                     "../../patches/PersistenceCycles_0003-Output-Diagram-in-Gudhi-format.patch",
                 ],
                 cwd=soft_src,
-                check=True,
             )
             create_dir(builddir)
             env = clean_env()
@@ -263,7 +261,6 @@ def main(subset=False):
                         "../../patches/Dipha_0001-Print-sum-of-ranks-memory-peaks.patch",
                     ],
                     cwd=soft_src,
-                    check=True,
                 )
             elif soft == "oineus":
                 subprocess.run(
@@ -273,7 +270,6 @@ def main(subset=False):
                         "../../patches/oineus_0001-New-example-file-for-simplicial-complexes.patch",
                     ],
                     cwd=soft_src,
-                    check=True,
                 )
             create_dir(builddir)
             subprocess.check_call(

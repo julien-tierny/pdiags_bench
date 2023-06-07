@@ -41,7 +41,7 @@ For the replicability stamp, we provide below, for each section, a second set of
 $ sudo apt update
 $ sudo apt install g++ git python-numpy python3-dev python3-pip libeigen3-dev \
     julia default-jdk libtbb-dev libboost-dev python2-dev libopenmpi-dev \
-    libgl1-mesa-dev texlive-latex-extra latexmk cmake
+    libgl1-mesa-dev texlive-latex-extra latexmk 
 # 2. clone the repository
 $ git clone https://github.com/pierre-guillou/pdiags_bench
 $ cd pdiags_bench

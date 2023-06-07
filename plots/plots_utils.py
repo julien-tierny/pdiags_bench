@@ -112,7 +112,7 @@ def compute_n_simplices(dim):
     return sum(simplices[dim].values())
 
 
-def sort_datasets_by_n_pairs(data, mode="seq"):
+def sort_datasets_by_n_pairs(data, mode="para"):
     n_pairs = {}
 
     # sum of number of DiscreteMorseSandwich pairs
